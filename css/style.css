@@ -1,0 +1,671 @@
+body {
+    background-color: #030404;
+    font-family: 'Comfortaa', cursive;
+}
+
+#load {
+    background-color: #030404;
+    position: fixed;
+    display: block;
+    z-index: 9999;
+    top: 0;
+    left: 0%;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: 1.3s;
+}
+
+.imgLoad {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    image-rendering: pixelated;
+}
+
+img {
+    color-interpolation-filters: linearRGB;
+    filter: saturate(140%) contrast(110%);
+}
+
+:root {
+    --cls-neon: hsl(348, 85%, 54%);
+    --cls-bg: hsl(354 21% 16%);
+}
+
+.neon {
+    color: var(--cls-neon);
+}
+
+header {
+    color: var(--cls-neon);
+    background-color: var(--cls-neon);
+
+    box-shadow: inset 0 0 0.5em 0 var(--cls-neon), 0 0 1em 0 var(--cls-neon);
+}
+
+.h2-header {
+    color: #030404;
+}
+
+h2 {
+    color: var(--cls-neon);
+    margin-bottom: 20px;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+}
+
+.card-meio {
+    margin-top: 140.645px;
+}
+
+.card-cover {
+    object-fit: cover;
+    height: 480.38px;
+}
+
+.artist {
+    color: var(--cls-neon);
+}
+
+.bo-link:hover {
+    color: var(--cls-neon);
+}
+
+.menu {
+    color: #030404;
+    padding: 10px;
+
+    transition: .3s;
+}
+
+.menu:hover {
+    background-color: #030404;
+    color: var(--cls-neon);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    /* Stay in place */
+    z-index: 99;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: -300px;
+    background-color: #030404;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.sidenav ul {
+    margin-top: 4vh;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--cls-neon);
+    display: block;
+    transition: .3s;
+}
+
+.sidenav a:hover {
+    color: #030404;
+    background-color: var(--cls-neon);
+    border-radius: 3px;
+}
+
+.sidenav .closebtn {
+    color: var(--cls-neon);
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .2s;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.sidenav .closebtn:hover {
+    color: #030404;
+    background-color: var(--cls-neon);
+    border-radius: 3px;
+}
+
+.linkNav {
+    color: var(--cls-neon);
+}
+
+.navegacaoLinkIcone {
+    padding: 0.2vh;
+    color: #030404;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navegacaoLinkIcone:hover {
+    color: var(--cls-neon);
+    background-color: #030404;
+    border-radius: 3px;
+}
+
+.home {
+    margin-right: 4vh;
+    padding: 1vh;
+    color: #030404;
+    transition: .3s;
+}
+
+.home:hover {
+    color: var(--cls-neon);
+    background-color: #030404;
+    border-radius: 2px;
+}
+
+hr {
+    color: var(--cls-neon);
+}
+
+.ul-cor-menuD {
+    background-color: #030404;
+}
+
+.formP {
+    display: block;
+    width: 20vh;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #030404;
+    background-clip: padding-box;
+    background-color: var(--cls-neon);
+    border: 2px solid #030404;
+    appearance: none;
+    border-radius: 0.25rem;
+}
+
+.formP:focus {
+    background-color: var(--cls-neon);
+    box-shadow: none !important;
+    border: 2px solid #030404 !important;
+    border-radius: 0.25rem;
+}
+
+.icone-pes {
+    color: #030404;
+    padding-top: 5px;
+}
+
+.btn-borda-he {
+    border: solid #030404 2px;
+    border-radius: 4px;
+    color: #030404;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    transition: background-color 300ms ease-in-out, border 300ms ease-in-out;
+}
+
+.btn-borda-he:hover {
+    background-color: #030404;
+}
+
+.btn-borda-he:hover .icone-pes {
+    color: var(--cls-neon);
+}
+
+li {
+    list-style: none;
+}
+
+.padi-menu {
+    padding-top: 11px;
+}
+
+.cobre {
+    object-fit: cover;
+    height: 85vh;
+}
+
+.card {
+    border: 1px solid var(--cls-neon);
+    background-color: #030404;
+    color: var(--cls-neon);
+    box-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+}
+
+footer {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    image-rendering: pixelated;
+}
+
+.containerF {
+    width: 135vh;
+    margin: 0 auto;
+}
+
+#email:hover+.traco {
+    background-color: var(--cls-neon);
+    border-radius: 2px;
+    width: 3rem;
+}
+
+.img-cesta {
+    width: 50%;
+    height: 50%;
+}
+
+.bloco {
+    background-color: #030404;
+    opacity: 0.8;
+}
+
+.navegacaoLinkIconeFooter {
+    padding: 0.5vh;
+    color: var(--cls-neon);
+    text-decoration: none;
+    transition: .3s;
+}
+
+#payPal {
+    padding-left: 0.3vh;
+    padding-right: 0.3vh;
+}
+
+.navegacaoLinkIconeFooter:hover {
+    color: #030404;
+    background-color: var(--cls-neon);
+    border-radius: 2px;
+
+}
+
+.faixa {
+    background-color: #030404;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.carousel-dark .carousel-caption {
+    color: var(--cls-neon);
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: var(--cls-neon);
+}
+
+.carousel-caption {
+    padding: 0;
+}
+
+button {
+    background-color: transparent;
+}
+
+label {
+    color: var(--cls-neon);
+}
+
+.navegacaoLinkLogin {
+    color: var(--cls-neon);
+}
+
+.navegacaoLinkLogin:hover {
+    color: var(--cls-neon);
+    font-style: italic;
+    text-decoration: underline var(--cls-neon) 2px;
+}
+
+.login {
+    border: 1px solid var(--cls-neon);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.form-text {
+    color: #212529;
+}
+
+.pa-f {
+    padding: 100px !important;
+}
+
+.sobrenome {
+    margin: -20px;
+}
+
+.resumoP {
+    border: 1px solid var(--cls-neon);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn-cadastro {
+    margin: 0 195px 0 195px;
+}
+
+input::placeholder {
+    color: #030404 !important;
+}
+
+.wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap main {
+    padding: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+/* You could use :after - it doesn't really matter */
+.wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('../src/thanshuhai_fullview.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.icone {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    image-resolution: 1000dpi;
+    border-radius: 4px !important;
+    object-fit: cover !important;
+}
+
+.btn-bo {
+    border: var(--cls-neon) 2px solid;
+    border-radius: 4px;
+    color: var(--cls-neon);
+    padding: 4px 6px 4px 6px;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    box-shadow: inset 0 0 0.5em var(--cls-neon), 0 0 0.5em var(--cls-neon);
+
+    position: relative;
+
+    transition: background-color 100ms linear;
+}
+
+.btn-bo:hover::before {
+    opacity: 1;
+}
+
+.btn-bo:hover::after {
+    opacity: 1;
+}
+
+.btn-bo:hover {
+    background: var(--cls-neon);
+    color: #030404;
+    text-shadow: none;
+}
+
+.wg1 {
+    grid-column: span 1;
+}
+
+.wg2 {
+    grid-column: span 2;
+}
+
+.hg1 {
+    grid-row: span 1;
+}
+
+.hg2 {
+    grid-row: span 2;
+}
+
+.galeria {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 45vh;
+
+}
+
+.lbox {
+    display: none;
+    opacity: 0;
+}
+
+.lbox:target {
+    opacity: 1;
+    width: 170vh;
+    height: 90vh;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    background: rgba(10, 10, 10, .7);
+    z-index: 999;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    position: fixed;
+}
+
+.b {
+    color: var(--cls-neon);
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    z-index: 999;
+}
+
+#close {
+    top: 0;
+    right: 2%;
+    background-color: #030404;
+    opacity: .5;
+}
+
+#close:hover {
+    color: #030404;
+    background-color: var(--cls-neon);
+    border-radius: 2px;
+    opacity: 1;
+    transition: .2s linear;
+}
+
+.single-galeria {
+    margin: 3px;
+    position: relative;
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    object-fit: cover;
+}
+
+.single-galeria:hover div.overflow {
+    opacity: 1;
+}
+
+.single-galeria:hover div.conteudo {
+    bottom: 20px;
+}
+
+.div-m {
+    margin-top: 6vh;
+    padding-top: 1.5vh;
+    padding-left: 1.5vh;
+}
+
+.overflow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    opacity: .9;
+    transition: all 0.5s ease-in-out;
+}
+
+.conteudo {
+    position: absolute;
+    color: var(--cls-neon);
+    border-left: 3px solid var(--cls-neon);
+    border-radius: 2px;
+    padding: 0 10px;
+    bottom: 10px;
+    left: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.conteudo h1 {
+    font-size: .8rem;
+}
+
+.conteudo p {
+    font-size: .8rem;
+}
+
+@media screen and (max-width: 764px) {
+
+    .wg1 {
+        grid-column: span 2;
+    }
+
+    .hg1 {
+        grid-row: span 2;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: calc(45vh / 2);
+    }
+
+    .conteudo h1 {
+        font-size: 14px;
+    }
+}
+
+.valor {
+    padding-top: 1vh;
+    margin-right: 5vh !important;
+}
+
+.informacoes-imagem {
+    padding-top: 1.5vh;
+    padding-left: 1.5vh;
+}
+
+.traco {
+    height: 0.5rem;
+    width: 0;
+    transition: .3s;
+}
+
+.tituloCategoria:hover+.traco {
+    background-color: var(--cls-neon);
+    border-radius: 3px;
+    width: 5rem;
+}
+
+.titulao:hover+.traco {
+    background-color: var(--cls-neon);
+    border-radius: 3px;
+    width: 12.5rem;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.div-t {
+    margin-bottom: 4rem;
+}
+
+.titulao {
+    font-size: 5rem;
+}
+
+.segura-img {
+    width: 135vh;
+    height: 70vh;
+}
+
+.img-produto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.informa {
+    width: 135vh;
+    height: 50vh;
+    border: 2px solid var(--cls-neon);
+    border-radius: 2px;
+    color: var(--cls-neon);
+}
+
+.p-produto {
+    padding-top: 40px;
+}
+
+.nomeArtistaP {
+    color: var(--cls-neon);
+    transition: .3s;
+}
+
+.nomeArtistaP:hover {
+    color: #030404;
+    background-color: var(--cls-neon);
+    border-radius: 2px;
+}
+
+.envolve {
+    width: 100%;
+    height: 100%;   
+}
+
+.final {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%);
+}
