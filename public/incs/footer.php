@@ -18,8 +18,8 @@
     </div>
   </div>
 </footer>
-<script src="../js/reveal.js"></script>
-<script src="../js/sideNav.js"></script>
+<script src="js/reveal.js"></script>
+<script src="js/sideNav.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script>
   function mostraImagem(img) {
@@ -56,13 +56,13 @@
   let num = getRandomInt(1, 4);
 
   if (num == 1) {
-    $('footer').css('backgroundImage', 'url("../img/veadoBebeAqua.gif")');
+    $('footer').css('backgroundImage', 'url("img/veadoBebeAqua.gif")');
   }
   if (num == 2) {
-    $('footer').css('backgroundImage', 'url("../img/gatoChuva.gif")')
+    $('footer').css('backgroundImage', 'url("img/gatoChuva.gif")')
   }
   if (num == 3) {
-    $('footer').css('backgroundImage', 'url("../img/chuva.gif")')
+    $('footer').css('backgroundImage', 'url("img/chuva.gif")')
   }
 </script>
 </body>

@@ -1,6 +1,6 @@
 <?php
-include "incs/header.php";
-require_once "src/UsuarioDAO.php";
+include "../incs/header.php";
+require_once "../src/UsuarioDAO.php";
 
 $usuarioDAO = new UsuarioDAO;
 
@@ -19,4 +19,4 @@ if ($senha == $senhaConfirma) {
     header("Location:cadastro.php?nomeUsuario=$nomeUsuario&msg=As senhas não são as mesmas");
 }
 
-include "incs/footer.php";
+include "../incs/footer.php";

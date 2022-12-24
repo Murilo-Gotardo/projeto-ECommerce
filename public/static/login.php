@@ -1,5 +1,5 @@
 <?php
-include "incs/header.php";
+include "../incs/header.php";
 ?>
     <main class="containerF my-5" style="width: 550px;">
 
@@ -24,4 +24,4 @@ include "incs/header.php";
 
     </main>
 <?php
-include "incs/footer.php";
+include "../incs/footer.php";

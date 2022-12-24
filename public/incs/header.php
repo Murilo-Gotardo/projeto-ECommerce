@@ -31,13 +31,13 @@ session_start();
     <?php
     $num = rand(1,4);
     if ($num == 1) {
-      echo "<img class='imgLoad' src='../img/taBebe.gif'>";
+      echo "<img class='imgLoad' src='img/taBebe.gif'>";
     } elseif ($num == 2) {
-      echo "<img class='imgLoad' src='../img/k2cGuerreiro.gif'>";
+      echo "<img class='imgLoad' src='img/k2cGuerreiro.gif'>";
     }elseif ($num == 3) {
-      echo "<img class='imgLoad' src='../img/k2cRosa.gif'>";
+      echo "<img class='imgLoad' src='img/k2cRosa.gif'>";
     }elseif ($num == 4) {
-      echo "<img class='imgLoad' src='../img/boceja.gif'>";
+      echo "<img class='imgLoad' src='img/boceja.gif'>";
     }
     ?>
   </div>
@@ -47,12 +47,12 @@ session_start();
 
       <li><a class="linkNav" aria-current="page" href="home.php">Home</a></li>
       <hr>
-      <li><a class="linkNav" href="categoria.php?idcategoria=0">Em destaque</a></li>
-      <li><a class="linkNav" href="categoria.php?idcategoria=1">Complex</a></li>
-      <li><a class="linkNav" href="categoria.php?idcategoria=2">Landscapes</a></li>
-      <li><a class="linkNav" href="categoria.php?idcategoria=3">Headshots</a></li>
-      <li><a class="linkNav" href="categoria.php?idcategoria=4">Bodyshots</a></li>
-      <li><a class="linkNav" href="admin/form_login.php" target="blank">Admin</a></li>
+      <li><a class="linkNav" href="../static/categoria.php?idcategoria=0">Em destaque</a></li>
+      <li><a class="linkNav" href="../static/categoria.php?idcategoria=1">Complex</a></li>
+      <li><a class="linkNav" href="../static/categoria.php?idcategoria=2">Landscapes</a></li>
+      <li><a class="linkNav" href="../static/categoria.php?idcategoria=3">Headshots</a></li>
+      <li><a class="linkNav" href="../static/categoria.php?idcategoria=4">Bodyshots</a></li>
+      <li><a class="linkNav" href="../../admin/form_login.php" target="blank">Admin</a></li>
     </ul>
   </div>
 

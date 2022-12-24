@@ -1,5 +1,5 @@
 <?php
-include "incs/header.php";
+include "../incs/header.php";
 
 if (isset($_GET['nomeUsuario'])) {
     $nomeUsuario = $_GET['nomeUsuario'];
@@ -55,4 +55,4 @@ if (isset($_GET['msg'])) {
 
 </main>
 <?php
-include "incs/footer.php";
+include "../incs/footer.php";

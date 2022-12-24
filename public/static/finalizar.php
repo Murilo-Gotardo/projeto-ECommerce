@@ -1,6 +1,6 @@
 <?php
-include "incs/header.php";
-require_once "src/CompraDAO.php";
+include "../incs/header.php";
+require_once "../src/CompraDAO.php";
 
 $compraDAO = new CompraDAO;
 
@@ -45,5 +45,5 @@ $compraDAO->registrarCompra($_SESSION);
 
 <?php
 
-include "incs/footer.php";
+include "../incs/footer.php";
 ?>

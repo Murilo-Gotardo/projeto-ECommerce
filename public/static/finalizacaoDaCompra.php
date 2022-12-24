@@ -1,6 +1,6 @@
 <?php
-include "incs/header.php";
-require_once "src/UsuarioDAO.php";
+include "../incs/header.php";
+require_once "../src/UsuarioDAO.php";
 
 $usuarioDAO = new UsuarioDAO;
 $usuario = $usuarioDAO->consultarUsuario("murilo@gmail.com");
@@ -33,4 +33,4 @@ $_SESSION['idusuario'] = $usuario['idusuario'];
   </section>
 </main>
 <?php
-include "incs/footer.php";
+include "../incs/footer.php";

@@ -1,6 +1,6 @@
 <?php
-require_once "src/ProdutoDAO.php";
-include "incs/header.php";
+require_once "../src/ProdutoDAO.php";
+include "../incs/header.php";
 
 $produtoDAO = new ProdutoDAO;
 
@@ -89,4 +89,4 @@ $carrinho = $_SESSION['carrinho'] ?? [];
     </div>
 </main>
 <?php
-include "incs/footer.php";
+include "../incs/footer.php";

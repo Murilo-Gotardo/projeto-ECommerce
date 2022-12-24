@@ -1,6 +1,6 @@
 <?php
-include "incs/header.php";
-include "src/ProdutoDAO.php";
+include "../incs/header.php";
+include "../src/ProdutoDAO.php";
 
 $produtoDAO = new ProdutoDAO;
 $idProduto = $_GET['idproduto'];
@@ -48,4 +48,4 @@ $tamanho_imagem = $produtoDAO->consultarTamanhoImagem($idProduto);
     </form>
 </main>
 <?php
-include "incs/footer.php";
+include "../incs/footer.php";

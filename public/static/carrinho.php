@@ -1,6 +1,6 @@
 <?php
-include "incs/header.php";
-require_once "src/ProdutoDAO.php";
+include "../incs/header.php";
+require_once "../src/ProdutoDAO.php";
 
 $idProduto = $_REQUEST['idproduto'] ?? null;
 $operacao = $_REQUEST['operacao'] ?? null;
@@ -114,4 +114,4 @@ $produtoDAO = new ProdutoDAO;
 
 </main>
 <?php
-include "incs/footer.php";
+include "../incs/footer.php";
