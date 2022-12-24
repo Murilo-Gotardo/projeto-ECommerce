@@ -4,15 +4,30 @@
 Projeto que tenta simular um E-commerce
 
 
-## Deployment
+## Rode localmente
 
-Para rodar o projeto, inicie o prompt de comando na raiz do mesmo e então instrua o seguinte comando:
+Clone o projeto
+
+```bash
+  git clone https://github.com/Murilo-Gotardo/projeto-ECommerce
+```
+
+Vá para o diretorio do projeto
+
+```bash
+  cd projeto-ECommerce
+```
+
+Inicie o docker-compose
 
 ```bash
   docker-compose up -d
 ```
 
+Inicie o servidor
+
 Recomendo, por enquanto, que use o php-server do VsCode (ou similar) para subir o servidor com qualquer página do projeto.
+
 
 ## Issues
 
