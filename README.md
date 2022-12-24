@@ -12,7 +12,7 @@ Clone o projeto
   git clone https://github.com/Murilo-Gotardo/projeto-ECommerce
 ```
 
-Vá para o diretorio do projeto
+Vá para o diretório do projeto
 
 ```bash
   cd projeto-ECommerce
