@@ -26,9 +26,8 @@ Inicie o docker-compose
 
 Inicie o servidor
 
-Recomendo, por enquanto, que use o php-server do VsCode (ou similar) para subir o servidor com qualquer página do projeto.
+O servidor web nginx sobe junto com o docker, então não são necessárias outras configurações. Além do mais, o banco de dados já vem configurado, apenas abra no navegador a seguinte url:
 
-
-## Issues
-
-O fato de ser necessário o uso do php-server, e não o web-server que vem com o docker-compose, se deve pelo `PDOExeption` que é retornado no servidor web.
+```
+  localhost:8000
+```
