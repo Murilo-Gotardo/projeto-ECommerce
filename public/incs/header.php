@@ -9,8 +9,8 @@ session_start();
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/unset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/unset.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
   </style>
@@ -31,13 +31,13 @@ session_start();
     <?php
     $num = rand(1,4);
     if ($num == 1) {
-      echo "<img class='imgLoad' src='img/taBebe.gif'>";
+      echo "<img class='imgLoad' src='../img/taBebe.gif'>";
     } elseif ($num == 2) {
-      echo "<img class='imgLoad' src='img/k2cGuerreiro.gif'>";
+      echo "<img class='imgLoad' src='../img/k2cGuerreiro.gif'>";
     }elseif ($num == 3) {
-      echo "<img class='imgLoad' src='img/k2cRosa.gif'>";
+      echo "<img class='imgLoad' src='../img/k2cRosa.gif'>";
     }elseif ($num == 4) {
-      echo "<img class='imgLoad' src='img/boceja.gif'>";
+      echo "<img class='imgLoad' src='../img/boceja.gif'>";
     }
     ?>
   </div>

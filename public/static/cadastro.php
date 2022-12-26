@@ -22,7 +22,7 @@ if (isset($_GET['msg'])) {
     <form class="login" method="POST" enctype="multipart/form-data" action="cadastro_usuario.php">
 
         <div class="" id="image-container">
-            <img id="imgImage" class="icone" width="100px" height="100px" src="img/logoPadrao.png" />
+            <img id="imgImage" class="icone" width="100px" height="100px" src="../img/logoPadrao.png" />
             <input type="file" class="mb-5" id="FileUpload1" name="imagem" onChange="mostraImagem(this)" />
         </div>
 

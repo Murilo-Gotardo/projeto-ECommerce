@@ -1,6 +1,8 @@
 FROM phpdockerio/php:8.2-fpm
 WORKDIR "/app"
 
+RUN docker-php-ext-install pdo pdo_mysql
+
 RUN apt-get update; \
     apt-get -y --no-install-recommends install \
         git \ 
