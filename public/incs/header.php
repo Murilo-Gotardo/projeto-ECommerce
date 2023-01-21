@@ -45,14 +45,14 @@ session_start();
     <span class="closebtn pointer" onclick="closeNav()"><i class="fa-solid fa-angle-left"></i></span>
     <ul>
 
-      <li><a class="linkNav" aria-current="page" href="home.php">Home</a></li>
+      <li><a class="linkNav" aria-current="page" href="/public/home.php">Home</a></li>
       <hr>
       <li><a class="linkNav" href="../static/categoria.php?idcategoria=0">Em destaque</a></li>
       <li><a class="linkNav" href="../static/categoria.php?idcategoria=1">Complex</a></li>
       <li><a class="linkNav" href="../static/categoria.php?idcategoria=2">Landscapes</a></li>
       <li><a class="linkNav" href="../static/categoria.php?idcategoria=3">Headshots</a></li>
       <li><a class="linkNav" href="../static/categoria.php?idcategoria=4">Bodyshots</a></li>
-      <li><a class="linkNav" href="../../admin/form_login.php" target="blank">Admin</a></li>
+      <li><a class="linkNav" href="/admin/form_login.php" target="blank">Admin</a></li>
     </ul>
   </div>
 
@@ -84,8 +84,8 @@ session_start();
               </form>
             </div>
           </div>
-          <a href="carrinho.php" class="navegacaoLinkIcone ms-3"><i class="fa-solid fa-basket-shopping d-flex"></i></a>
-          <a href="login.php" class="navegacaoLinkIcone ms-2"><i class="fa-solid fa-user-lock d-flex "></i></a>
+          <a href="../static/carrinho.php" class="navegacaoLinkIcone ms-3"><i class="fa-solid fa-basket-shopping d-flex"></i></a>
+          <a href="../static/login.php" class="navegacaoLinkIcone ms-2"><i class="fa-solid fa-user-lock d-flex "></i></a>
         </nav>
       </div>
     </div>

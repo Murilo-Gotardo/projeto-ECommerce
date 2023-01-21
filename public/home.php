@@ -99,7 +99,7 @@ $destaques = $produtoDAO->consultarProdutos();
                 } else
                 if ($existe == false) {
                 ?>
-                  <a href="produto.php?idproduto=<?= $produto['idproduto'] ?>" class="btn-bo">Comprar licença</a>
+                  <a href="/static/produto.php?idproduto=<?= $produto['idproduto'] ?>" class="btn-bo">Comprar licença</a>
                 <?php
                 }
                 ?>
@@ -176,7 +176,7 @@ $destaques = $produtoDAO->consultarProdutos();
               } else 
                 if ($existe == false) {
               ?>
-                <a href="produto.php?idproduto=<?= $produto['idproduto'] ?>" class="btn-bo">Comprar licença</a>
+                <a href="/static/produto.php?idproduto=<?= $produto['idproduto'] ?>" class="btn-bo">Comprar licença</a>
               <?php
               }
               ?>
@@ -254,7 +254,7 @@ $destaques = $produtoDAO->consultarProdutos();
               } else
               if ($existe == false) {
               ?>
-                <a href="produto.php?idproduto=<?= $produto['idproduto'] ?>" class="btn-bo">Comprar licença</a>
+                <a href="/static/produto.php?idproduto=<?= $produto['idproduto'] ?>" class="btn-bo">Comprar licença</a>
               <?php
               }
               ?>
@@ -328,7 +328,7 @@ $destaques = $produtoDAO->consultarProdutos();
               } else
               if ($existe == false) {
               ?>
-                <a href="produto.php?idproduto=<?= $produto['idproduto'] ?>" class="btn-bo">Comprar licença</a>
+                <a href="/static/produto.php?idproduto=<?= $produto['idproduto'] ?>" class="btn-bo">Comprar licença</a>
               <?php
               }
               ?>
