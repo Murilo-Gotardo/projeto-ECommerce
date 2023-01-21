@@ -4,6 +4,11 @@
 Projeto que tenta simular um E-commerce
 
 
+## Demontração
+
+<img src="public\img\Captura de tela_20230120_220948.png" width="700px"/>
+<img src="public\img\Captura de tela 2023-01-20 221133.png" width="700px"/>
+
 ## Rode localmente
 
 Clone o projeto
